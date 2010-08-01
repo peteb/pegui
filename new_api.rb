@@ -1,8 +1,7 @@
-
 # 1 ----------------------------------------------------------------------------
 # TODO:
 #   * How are positions and sizes defined? 'position :x => 23, :y => 23', for
-#     each component? Any auto-sizing or default-sizing or whatever?
+#     each component? Any auto-sizing or default-sizing or whatnot?
 
 main_window = Window.new {
   title "My Window, eh!"
