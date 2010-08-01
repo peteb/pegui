@@ -9,7 +9,9 @@ main_window = Window.new {
 	}
 }
 
-
+main_window.button1.on_terminate {
+	puts "Bye!"
+}
 
 def create_document_window(name)
 	Window.new {
